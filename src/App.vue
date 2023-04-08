@@ -1,31 +1,11 @@
 <template>
-  <div class="flex flex-col h-screen">
-  <Header />
-  <Main />
-  <Footer />
-  </div>
+<router-view />
 </template>
 
 <script>
-import Header from "@/components/Header.vue";
-import Main from "@/components/Main.vue"
-import Footer from "@/components/Footer.vue";
-
-
 
 export default {
   name: 'App',
-  components: {
-    Header,
-    Main,
-    Footer,
-  },
-  data(){
-    return{
-
-      }
-    }
-
 
 }
 
